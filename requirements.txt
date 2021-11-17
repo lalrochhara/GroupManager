@@ -1,7 +1,7 @@
 future
 emoji
 requests
-sqlalchemy
+sqlalchemy==1.3.20
 python-telegram-bot==12.8
 psycopg2
 feedparser
@@ -27,3 +27,5 @@ pyowm
 wikipedia
 bleach
 markdown2
+
+Postgres
