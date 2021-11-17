@@ -10,13 +10,13 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "2110670112:AAGyMn2hgU2znqzFwzFa-kM-vaSVcWjLzgE"
-    OWNER_ID = "1382148141"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Nickylrca"
+    API_KEY = ""
+    OWNER_ID = ""  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = ""
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://grqeohdl:Z20s9CSfgxI-RSkSh7oPU7HQJonYQdb_@otto.db.elephantsql.com/grqeohdl'  # needed for any database modules
-    MESSAGE_DUMP = "-1001371345308"  # needed to make sure 'save from' messages persist
+    SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
+    MESSAGE_DUMP = ""  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['sed']
     WEBHOOK = False
@@ -36,7 +36,7 @@ class Config(object):
     STRICT_GBAN = False
     STRICT_GMUTE = False
     ALLOW_EXCL = True  # Allow ! commands as well as /
-    API_OPENWEATHER = "20940ce270c21418fe252bda6a998d50" # OpenWeather API
+    API_OPENWEATHER = "" # OpenWeather API
 
     # MEMES
     DEEPFRY_TOKEN = None
