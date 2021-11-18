@@ -23,7 +23,7 @@ googletrans
 
 tldextract
 PyYAML
-pyowm
+pyowm==3.0
 wikipedia
 bleach
 markdown2
