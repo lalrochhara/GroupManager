@@ -1,5 +1,5 @@
 from telegram import Message
-from telegram.ext import MessageFilter
+from telegram.ext import BaseFilter
 
 from haruka import SUPPORT_USERS, SUDO_USERS
 
